@@ -1,6 +1,0 @@
-@value variables: "../layouts/variables.css";
-@value headerHeight from variables;
-
-.legal{
-  margin-top: headerHeight;
-}
