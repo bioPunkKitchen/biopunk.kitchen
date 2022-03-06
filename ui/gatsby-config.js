@@ -3,7 +3,7 @@ module.exports = {
         title: '',
         description: ''
     },
-    pathPrefix: '/',
+    pathPrefix: '/biopunk.kitchen',
     plugins: [
         'gatsby-plugin-react-helmet',
         {
