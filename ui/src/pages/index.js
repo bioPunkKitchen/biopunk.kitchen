@@ -15,10 +15,9 @@ import styles from './index.module.css';
 
 const Link = ( props ) => {
     return (
-        props.button && <Button label={props.label} url={props.url}/>
-
+        props.button ? <Button label={props.label} url={props.url}/> :
+        <a className={styles.link} href={props.url}>{`${props.label} >>`}</a>
     );
-    { /* <a href={props.url}>{props.label}</a>-->*/ }
 };
 
 

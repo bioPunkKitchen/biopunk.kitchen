@@ -19,7 +19,7 @@ export default ({ type, children }) => {
             >
                 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
             </Helmet>
-            {/*<Header background={type}/>*/}
+            <Header background={type}/>
             <div className={styles.main}>
                 {children}
             </div>
