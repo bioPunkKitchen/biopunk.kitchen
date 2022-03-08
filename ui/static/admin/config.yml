@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: speexy/biopunk.kitchen
-  branch: master # Branch to update (optional; defaults to master)
+  repo: bioPunkKitchen/biopunk.kitchen
+  branch: development # Branch to update (optional; defaults to master)
 
 media_folder: "ui/static/media" # Media files will be stored in the repo under images/uploads
 public_folder: /media
